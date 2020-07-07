@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AF47164E60CDF242A8C1534 /* Pods_XT_Zujianhua.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77D6DDABEAA1C28F4E0F0FE0 /* Pods_XT_Zujianhua.framework */; };
+		A08C366824B34A8200EF0B17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C366724B34A8200EF0B17 /* AppDelegate.m */; };
+		A08C366B24B34A8200EF0B17 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C366A24B34A8200EF0B17 /* SceneDelegate.m */; };
+		A08C366E24B34A8200EF0B17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C366D24B34A8200EF0B17 /* ViewController.m */; };
+		A08C367124B34A8200EF0B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08C366F24B34A8200EF0B17 /* Main.storyboard */; };
+		A08C367324B34AC000EF0B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08C367224B34AC000EF0B17 /* Assets.xcassets */; };
+		A08C367624B34AC000EF0B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A08C367424B34AC000EF0B17 /* LaunchScreen.storyboard */; };
+		A08C367924B34AC000EF0B17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C367824B34AC000EF0B17 /* main.m */; };
+		A08C368324B34AC100EF0B17 /* XT_ZujianhuaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C368224B34AC100EF0B17 /* XT_ZujianhuaTests.m */; };
+		A08C368E24B34AC100EF0B17 /* XT_ZujianhuaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A08C368D24B34AC100EF0B17 /* XT_ZujianhuaUITests.m */; };
+		B05610E2F9844CBD9CE006BF /* Pods_XT_ZujianhuaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7311697C4E2661D6F5516F25 /* Pods_XT_ZujianhuaTests.framework */; };
+		E8FBC7DBC9E9F0588B67AE71 /* Pods_XT_Zujianhua_XT_ZujianhuaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1EA939FE91B824C56E81235 /* Pods_XT_Zujianhua_XT_ZujianhuaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A08C367F24B34AC100EF0B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A08C365B24B34A8200EF0B17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A08C366224B34A8200EF0B17;
+			remoteInfo = XT_Zujianhua;
+		};
+		A08C368A24B34AC100EF0B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A08C365B24B34A8200EF0B17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A08C366224B34A8200EF0B17;
+			remoteInfo = XT_Zujianhua;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C24C1B65EB63E71508CE496 /* Pods-XT_ZujianhuaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XT_ZujianhuaTests.debug.xcconfig"; path = "Target Support Files/Pods-XT_ZujianhuaTests/Pods-XT_ZujianhuaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3AD83FC89C7FD810C7C83A3E /* Pods-XT_Zujianhua-XT_ZujianhuaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XT_Zujianhua-XT_ZujianhuaUITests.debug.xcconfig"; path = "Target Support Files/Pods-XT_Zujianhua-XT_ZujianhuaUITests/Pods-XT_Zujianhua-XT_ZujianhuaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70A63B7138D9731D0A08F71E /* Pods-XT_ZujianhuaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XT_ZujianhuaTests.release.xcconfig"; path = "Target Support Files/Pods-XT_ZujianhuaTests/Pods-XT_ZujianhuaTests.release.xcconfig"; sourceTree = "<group>"; };
+		7311697C4E2661D6F5516F25 /* Pods_XT_ZujianhuaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XT_ZujianhuaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D6DDABEAA1C28F4E0F0FE0 /* Pods_XT_Zujianhua.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XT_Zujianhua.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08C366324B34A8200EF0B17 /* XT_Zujianhua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XT_Zujianhua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08C366624B34A8200EF0B17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A08C366724B34A8200EF0B17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A08C366924B34A8200EF0B17 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A08C366A24B34A8200EF0B17 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A08C366C24B34A8200EF0B17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A08C366D24B34A8200EF0B17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A08C367024B34A8200EF0B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A08C367224B34AC000EF0B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A08C367524B34AC000EF0B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A08C367724B34AC000EF0B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08C367824B34AC000EF0B17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A08C367E24B34AC100EF0B17 /* XT_ZujianhuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XT_ZujianhuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08C368224B34AC100EF0B17 /* XT_ZujianhuaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XT_ZujianhuaTests.m; sourceTree = "<group>"; };
+		A08C368424B34AC100EF0B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08C368924B34AC100EF0B17 /* XT_ZujianhuaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XT_ZujianhuaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08C368D24B34AC100EF0B17 /* XT_ZujianhuaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XT_ZujianhuaUITests.m; sourceTree = "<group>"; };
+		A08C368F24B34AC100EF0B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADB7290178C517BE3ED97ADE /* Pods-XT_Zujianhua.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XT_Zujianhua.debug.xcconfig"; path = "Target Support Files/Pods-XT_Zujianhua/Pods-XT_Zujianhua.debug.xcconfig"; sourceTree = "<group>"; };
+		B07647D9A24814AFE9BDB4D9 /* Pods-XT_Zujianhua-XT_ZujianhuaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XT_Zujianhua-XT_ZujianhuaUITests.release.xcconfig"; path = "Target Support Files/Pods-XT_Zujianhua-XT_ZujianhuaUITests/Pods-XT_Zujianhua-XT_ZujianhuaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9FACCD9145B6FAF3BFC2CCD /* Pods-XT_Zujianhua.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XT_Zujianhua.release.xcconfig"; path = "Target Support Files/Pods-XT_Zujianhua/Pods-XT_Zujianhua.release.xcconfig"; sourceTree = "<group>"; };
+		E1EA939FE91B824C56E81235 /* Pods_XT_Zujianhua_XT_ZujianhuaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XT_Zujianhua_XT_ZujianhuaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A08C366024B34A8200EF0B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF47164E60CDF242A8C1534 /* Pods_XT_Zujianhua.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C367B24B34AC100EF0B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05610E2F9844CBD9CE006BF /* Pods_XT_ZujianhuaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C368624B34AC100EF0B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8FBC7DBC9E9F0588B67AE71 /* Pods_XT_Zujianhua_XT_ZujianhuaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9219CFD7A5B8B192F5097C4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADB7290178C517BE3ED97ADE /* Pods-XT_Zujianhua.debug.xcconfig */,
+				C9FACCD9145B6FAF3BFC2CCD /* Pods-XT_Zujianhua.release.xcconfig */,
+				3AD83FC89C7FD810C7C83A3E /* Pods-XT_Zujianhua-XT_ZujianhuaUITests.debug.xcconfig */,
+				B07647D9A24814AFE9BDB4D9 /* Pods-XT_Zujianhua-XT_ZujianhuaUITests.release.xcconfig */,
+				0C24C1B65EB63E71508CE496 /* Pods-XT_ZujianhuaTests.debug.xcconfig */,
+				70A63B7138D9731D0A08F71E /* Pods-XT_ZujianhuaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		929022FF88D6BB2F9B7E056D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77D6DDABEAA1C28F4E0F0FE0 /* Pods_XT_Zujianhua.framework */,
+				E1EA939FE91B824C56E81235 /* Pods_XT_Zujianhua_XT_ZujianhuaUITests.framework */,
+				7311697C4E2661D6F5516F25 /* Pods_XT_ZujianhuaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A08C365A24B34A8200EF0B17 = {
+			isa = PBXGroup;
+			children = (
+				A08C366524B34A8200EF0B17 /* XT_Zujianhua */,
+				A08C368124B34AC100EF0B17 /* XT_ZujianhuaTests */,
+				A08C368C24B34AC100EF0B17 /* XT_ZujianhuaUITests */,
+				A08C366424B34A8200EF0B17 /* Products */,
+				9219CFD7A5B8B192F5097C4E /* Pods */,
+				929022FF88D6BB2F9B7E056D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A08C366424B34A8200EF0B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A08C366324B34A8200EF0B17 /* XT_Zujianhua.app */,
+				A08C367E24B34AC100EF0B17 /* XT_ZujianhuaTests.xctest */,
+				A08C368924B34AC100EF0B17 /* XT_ZujianhuaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A08C366524B34A8200EF0B17 /* XT_Zujianhua */ = {
+			isa = PBXGroup;
+			children = (
+				A08C366624B34A8200EF0B17 /* AppDelegate.h */,
+				A08C366724B34A8200EF0B17 /* AppDelegate.m */,
+				A08C366924B34A8200EF0B17 /* SceneDelegate.h */,
+				A08C366A24B34A8200EF0B17 /* SceneDelegate.m */,
+				A08C366C24B34A8200EF0B17 /* ViewController.h */,
+				A08C366D24B34A8200EF0B17 /* ViewController.m */,
+				A08C366F24B34A8200EF0B17 /* Main.storyboard */,
+				A08C367224B34AC000EF0B17 /* Assets.xcassets */,
+				A08C367424B34AC000EF0B17 /* LaunchScreen.storyboard */,
+				A08C367724B34AC000EF0B17 /* Info.plist */,
+				A08C367824B34AC000EF0B17 /* main.m */,
+			);
+			path = XT_Zujianhua;
+			sourceTree = "<group>";
+		};
+		A08C368124B34AC100EF0B17 /* XT_ZujianhuaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A08C368224B34AC100EF0B17 /* XT_ZujianhuaTests.m */,
+				A08C368424B34AC100EF0B17 /* Info.plist */,
+			);
+			path = XT_ZujianhuaTests;
+			sourceTree = "<group>";
+		};
+		A08C368C24B34AC100EF0B17 /* XT_ZujianhuaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A08C368D24B34AC100EF0B17 /* XT_ZujianhuaUITests.m */,
+				A08C368F24B34AC100EF0B17 /* Info.plist */,
+			);
+			path = XT_ZujianhuaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A08C366224B34A8200EF0B17 /* XT_Zujianhua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08C369224B34AC100EF0B17 /* Build configuration list for PBXNativeTarget "XT_Zujianhua" */;
+			buildPhases = (
+				D4E290AD4226ECC175DD2DA8 /* [CP] Check Pods Manifest.lock */,
+				A08C365F24B34A8200EF0B17 /* Sources */,
+				A08C366024B34A8200EF0B17 /* Frameworks */,
+				A08C366124B34A8200EF0B17 /* Resources */,
+				65AD109AA8EE1DCF3CF6BA90 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XT_Zujianhua;
+			productName = XT_Zujianhua;
+			productReference = A08C366324B34A8200EF0B17 /* XT_Zujianhua.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A08C367D24B34AC100EF0B17 /* XT_ZujianhuaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08C369524B34AC100EF0B17 /* Build configuration list for PBXNativeTarget "XT_ZujianhuaTests" */;
+			buildPhases = (
+				9EBCC8A94753D23243D56ACB /* [CP] Check Pods Manifest.lock */,
+				A08C367A24B34AC100EF0B17 /* Sources */,
+				A08C367B24B34AC100EF0B17 /* Frameworks */,
+				A08C367C24B34AC100EF0B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A08C368024B34AC100EF0B17 /* PBXTargetDependency */,
+			);
+			name = XT_ZujianhuaTests;
+			productName = XT_ZujianhuaTests;
+			productReference = A08C367E24B34AC100EF0B17 /* XT_ZujianhuaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A08C368824B34AC100EF0B17 /* XT_ZujianhuaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A08C369824B34AC100EF0B17 /* Build configuration list for PBXNativeTarget "XT_ZujianhuaUITests" */;
+			buildPhases = (
+				BAFBDD8980293ED14A9A73FB /* [CP] Check Pods Manifest.lock */,
+				A08C368524B34AC100EF0B17 /* Sources */,
+				A08C368624B34AC100EF0B17 /* Frameworks */,
+				A08C368724B34AC100EF0B17 /* Resources */,
+				5E8448DFBA944DDAD5F1E229 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A08C368B24B34AC100EF0B17 /* PBXTargetDependency */,
+			);
+			name = XT_ZujianhuaUITests;
+			productName = XT_ZujianhuaUITests;
+			productReference = A08C368924B34AC100EF0B17 /* XT_ZujianhuaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A08C365B24B34A8200EF0B17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "步步高教育电子";
+				TargetAttributes = {
+					A08C366224B34A8200EF0B17 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					A08C367D24B34AC100EF0B17 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A08C366224B34A8200EF0B17;
+					};
+					A08C368824B34AC100EF0B17 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = A08C366224B34A8200EF0B17;
+					};
+				};
+			};
+			buildConfigurationList = A08C365E24B34A8200EF0B17 /* Build configuration list for PBXProject "XT_Zujianhua" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A08C365A24B34A8200EF0B17;
+			productRefGroup = A08C366424B34A8200EF0B17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A08C366224B34A8200EF0B17 /* XT_Zujianhua */,
+				A08C367D24B34AC100EF0B17 /* XT_ZujianhuaTests */,
+				A08C368824B34AC100EF0B17 /* XT_ZujianhuaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A08C366124B34A8200EF0B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08C367624B34AC000EF0B17 /* LaunchScreen.storyboard in Resources */,
+				A08C367324B34AC000EF0B17 /* Assets.xcassets in Resources */,
+				A08C367124B34A8200EF0B17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C367C24B34AC100EF0B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C368724B34AC100EF0B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E8448DFBA944DDAD5F1E229 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XT_Zujianhua-XT_ZujianhuaUITests/Pods-XT_Zujianhua-XT_ZujianhuaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XT_Zujianhua-XT_ZujianhuaUITests/Pods-XT_Zujianhua-XT_ZujianhuaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XT_Zujianhua-XT_ZujianhuaUITests/Pods-XT_Zujianhua-XT_ZujianhuaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65AD109AA8EE1DCF3CF6BA90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XT_Zujianhua/Pods-XT_Zujianhua-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XT_Zujianhua/Pods-XT_Zujianhua-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XT_Zujianhua/Pods-XT_Zujianhua-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EBCC8A94753D23243D56ACB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XT_ZujianhuaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAFBDD8980293ED14A9A73FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XT_Zujianhua-XT_ZujianhuaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4E290AD4226ECC175DD2DA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XT_Zujianhua-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A08C365F24B34A8200EF0B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08C366E24B34A8200EF0B17 /* ViewController.m in Sources */,
+				A08C366824B34A8200EF0B17 /* AppDelegate.m in Sources */,
+				A08C367924B34AC000EF0B17 /* main.m in Sources */,
+				A08C366B24B34A8200EF0B17 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C367A24B34AC100EF0B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08C368324B34AC100EF0B17 /* XT_ZujianhuaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A08C368524B34AC100EF0B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08C368E24B34AC100EF0B17 /* XT_ZujianhuaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A08C368024B34AC100EF0B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A08C366224B34A8200EF0B17 /* XT_Zujianhua */;
+			targetProxy = A08C367F24B34AC100EF0B17 /* PBXContainerItemProxy */;
+		};
+		A08C368B24B34AC100EF0B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A08C366224B34A8200EF0B17 /* XT_Zujianhua */;
+			targetProxy = A08C368A24B34AC100EF0B17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A08C366F24B34A8200EF0B17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A08C367024B34A8200EF0B17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A08C367424B34AC000EF0B17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A08C367524B34AC000EF0B17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A08C369024B34AC100EF0B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A08C369124B34AC100EF0B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A08C369324B34AC100EF0B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB7290178C517BE3ED97ADE /* Pods-XT_Zujianhua.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG8QN3D8RM;
+				INFOPLIST_FILE = XT_Zujianhua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eebbk.XT-Zujianhua";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A08C369424B34AC100EF0B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9FACCD9145B6FAF3BFC2CCD /* Pods-XT_Zujianhua.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG8QN3D8RM;
+				INFOPLIST_FILE = XT_Zujianhua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eebbk.XT-Zujianhua";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A08C369624B34AC100EF0B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C24C1B65EB63E71508CE496 /* Pods-XT_ZujianhuaTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG8QN3D8RM;
+				INFOPLIST_FILE = XT_ZujianhuaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eebbk.XT-ZujianhuaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XT_Zujianhua.app/XT_Zujianhua";
+			};
+			name = Debug;
+		};
+		A08C369724B34AC100EF0B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A63B7138D9731D0A08F71E /* Pods-XT_ZujianhuaTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG8QN3D8RM;
+				INFOPLIST_FILE = XT_ZujianhuaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eebbk.XT-ZujianhuaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XT_Zujianhua.app/XT_Zujianhua";
+			};
+			name = Release;
+		};
+		A08C369924B34AC100EF0B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD83FC89C7FD810C7C83A3E /* Pods-XT_Zujianhua-XT_ZujianhuaUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG8QN3D8RM;
+				INFOPLIST_FILE = XT_ZujianhuaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eebbk.XT-ZujianhuaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XT_Zujianhua;
+			};
+			name = Debug;
+		};
+		A08C369A24B34AC100EF0B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07647D9A24814AFE9BDB4D9 /* Pods-XT_Zujianhua-XT_ZujianhuaUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WG8QN3D8RM;
+				INFOPLIST_FILE = XT_ZujianhuaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eebbk.XT-ZujianhuaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XT_Zujianhua;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A08C365E24B34A8200EF0B17 /* Build configuration list for PBXProject "XT_Zujianhua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08C369024B34AC100EF0B17 /* Debug */,
+				A08C369124B34AC100EF0B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08C369224B34AC100EF0B17 /* Build configuration list for PBXNativeTarget "XT_Zujianhua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08C369324B34AC100EF0B17 /* Debug */,
+				A08C369424B34AC100EF0B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08C369524B34AC100EF0B17 /* Build configuration list for PBXNativeTarget "XT_ZujianhuaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08C369624B34AC100EF0B17 /* Debug */,
+				A08C369724B34AC100EF0B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A08C369824B34AC100EF0B17 /* Build configuration list for PBXNativeTarget "XT_ZujianhuaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A08C369924B34AC100EF0B17 /* Debug */,
+				A08C369A24B34AC100EF0B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A08C365B24B34A8200EF0B17 /* Project object */;
+}

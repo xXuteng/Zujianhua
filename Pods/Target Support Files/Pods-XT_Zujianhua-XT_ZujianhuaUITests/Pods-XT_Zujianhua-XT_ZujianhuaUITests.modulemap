@@ -1,0 +1,6 @@
+framework module Pods_XT_Zujianhua_XT_ZujianhuaUITests {
+  umbrella header "Pods-XT_Zujianhua-XT_ZujianhuaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

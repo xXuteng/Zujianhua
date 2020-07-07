@@ -1,0 +1,16 @@
+PODS:
+  - CrashLib (0.1.0)
+
+DEPENDENCIES:
+  - CrashLib (from `Lib/CrashLib`)
+
+EXTERNAL SOURCES:
+  CrashLib:
+    :path: Lib/CrashLib
+
+SPEC CHECKSUMS:
+  CrashLib: 5ccaa0a285f38a8023aaf8e8cf1edfd9eb24f3ae
+
+PODFILE CHECKSUM: 29a39d0ad222f5cf0daab8affa760e52790e9288
+
+COCOAPODS: 1.9.3
